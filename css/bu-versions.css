@@ -1,0 +1,59 @@
+/*
+Many of the styles for bu-versions are in place to adjust the post editor for the alternate versions
+*/
+
+.js div.bu-version-notice {
+	display: none;
+}
+
+div.bu-version-notice {
+	background-color: #eff4f8;
+	border-color: #0881d7;
+}
+
+
+.bu_alt_postedit .wrap h2 {
+	color: #0881d7;
+}
+
+.bu_alt_postedit #edit-slug-box {
+	display: none;
+}
+
+/**
+ * Hide "Add New" link on alternate post type
+ * https://core.trac.wordpress.org/ticket/31650
+ */
+.bu_alt_postedit a.add-new-h2 {
+	display: none;
+}
+
+/* since 4.3 */
+.bu_alt_postedit a.page-title-action {
+	display: none;
+}
+
+.bu_alt_postedit #icon-edit.icon32-posts-pagealt,
+.bu_alt_postedit #icon-edit.icon32-posts-page_alt {
+	background: transparent url("../images/pages_alt.png") no-repeat 0 0;
+}
+
+
+.bu_alt_postedit #icon-edit.icon32-posts-postalt,
+.bu_alt_postedit #icon-edit.icon32-posts-post_alt {
+	background: transparent url("../images/posts_alt.png") no-repeat 0 0;
+}
+
+.bu_version_edit {
+	background: transparent url("../images/page_edit.png") no-repeat 0 0;
+	min-height: 18px;
+	display: block;
+	padding-left: 20px;
+}
+
+.bu_version_clone {
+	background: transparent url("../images/page_copy.png") no-repeat;
+	min-height: 18px;
+	display: block;
+	padding-left: 20px;
+}
